@@ -1,6 +1,8 @@
 # Calculating the cumulative distribution for the data
 
-What you have just plotted is almost a graph of the so-called cumulative probability distribution, ![](https://render.githubusercontent.com/render/math?math=P(X\le\x)).  As we will learn throughout the rest of the course the cumulative probability distribution is very important.  It is thus worth expending some additional effort now and plotting this distribution.  Watching [the video](https://www.youtube.com/watch?v=VaZTKmcxLvY) will help you to better understand this exercise.  
+What you have just plotted is almost a graph of the so-called cumulative probability distribution, ![](https://render.githubusercontent.com/render/math?math=P(X\le\x)).  As we will learn throughout the rest of the course the cumulative probability distribution is very important.  It is thus worth expending some additional effort now and plotting this distribution.  
+
+Watching [this video](https://www.youtube.com/watch?v=VaZTKmcxLvY) will help you to better understand this exercise.  
 
 I have started writing the code to calculate the cumulative distribution for you in the file `main.py`.  As you can see I have loaded the data set from the file data.dat saved it in a list called `x`.  The two lines at the end of the script that read:
 
