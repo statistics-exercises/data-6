@@ -5,9 +5,3 @@ import numpy as np
 x = np.loadtxt("data.dat")
 
 # Your code will go here
-
-
-
-# This will produce the final graph
-plt.plot( x, y, 'k-' )
-plt.savefig("cumulative-pdf.png")
