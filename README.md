@@ -8,10 +8,10 @@ Watching [this video](https://www.youtube.com/watch?v=VaZTKmcxLvY) will help you
 
 I have started writing the code to calculate the cumulative distribution for you in the file `main.py`.  As you can see I have loaded the data set from the file data.dat saved it in a list called `x`.  The two lines at the end of the script that read:
 
-````
+```python
 plt.plot( x, y, 'k-' )
 plt.savefig("cumulative-pdf.png")
-````
+```
 
 Are then going to plot our cumulative probability distribution function.  You will notice that the list called `y` that we are plotting with the plot command is not defined anywhere in the code.  One of your tasks is, therefore, to write the code that calculates this variable.  
 
@@ -23,8 +23,8 @@ Recall from the video that calculating the cumulative distribution for a dataset
 
 Once you have sorted `x` you just need to create the list called `y` that you are going to plot.  This list is going to contain the numbers between 1 and the number of data points in your list divided by the total number of data points.  If you had four data points `y` would thus be:
 
-````
+```python
 y = [1/4, 2/4, 3/4, 4/4]
-````
+```
 
 Try to write the rest of the code to plot your cumulative probability distribution now.
